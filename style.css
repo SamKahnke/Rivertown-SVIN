@@ -4,7 +4,7 @@ body {
 }
 
 h2 {
-	font-size: 14px;
+	font-size: 18px;
 	color: #21265d;
 	margin: 0;
 }
@@ -22,7 +22,6 @@ header {
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
-	
 	background-image: url("imgs/SVIN-header.svg");
 	background-repeat: no-repeat;
 }
@@ -32,17 +31,12 @@ header {
 	padding: 6px 0 3px 6px;
 }
 
-.header-right {
+.header-right-overlay {		/* causes right side of header graphic to move with window -- see img element in header */
 	margin: 0 0 0 auto;
-	
 }
 
 .toolbar {
-	max-width: 1024px;
-	padding: 0;
 	display: flex;
-	justify-content: space-between;
-	list-style-type: none;
 }
 
 .toolbar-btn {
