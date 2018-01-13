@@ -1,11 +1,15 @@
 body {
 	font-family: Calibri, Candara, Arial, sans-serif;
 	color: #000;
+}
 
+h2 {
+	font-size: 18px;
+	color: #21265d;
+	margin: 0;
 }
 
 .body-container {
-
 	max-width: 1024px;
 	margin: 0 auto;
 	background-color: #f2f2f2;
@@ -18,23 +22,26 @@ header {
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
-
 	background-image: url("imgs/SVIN-header.svg");
 	background-repeat: no-repeat;
 }
 
-#logo {
+.logo {
 	margin: 0;
 	padding: 6px 0 3px 6px;
 }
 
-#header-right {
+.header-right-overlay {		/* causes right side of header graphic to move with window -- see img element in header */
 	margin: 0 0 0 auto;
-
 }
 
-#bottom-nav {
+.toolbar {
+	display: flex;
+}
 
+.toolbar-btn {
+	flex: 1;
+	font-family: inherit;
 }
 
 #transcript-dialog {
