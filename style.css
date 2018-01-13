@@ -1,11 +1,15 @@
 body {
 	font-family: Calibri, Candara, Arial, sans-serif;
 	color: #000;
-	
+}
+
+h2 {
+	font-size: 14px;
+	color: #21265d;
+	margin: 0;
 }
 
 .body-container {
-
 	max-width: 1024px;
 	margin: 0 auto;
 	background-color: #f2f2f2;
@@ -23,19 +27,30 @@ header {
 	background-repeat: no-repeat;
 }
 
-#logo {
+.logo {
 	margin: 0;
 	padding: 6px 0 3px 6px;
 }
 
-#header-right {
+.header-right {
 	margin: 0 0 0 auto;
 	
 }
 
-#bottom-nav {
-
+.toolbar {
+	max-width: 1024px;
+	padding: 0;
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
 }
+
+.toolbar-btn {
+	flex: 1;
+	font-family: inherit;
+}
+
+
 
 
 
