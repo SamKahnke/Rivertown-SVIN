@@ -2,8 +2,12 @@
 <html>
 <head>
 	<title>Video SVIN</title>
-	<link rel="stylesheet" href="style.css"/>
+	
 	<link rel="stylesheet" href="vendors/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="vendors/jquery.js"></script>
+	<script src="vendors/jquery-ui.min.js"></script>
+	<script src="clientApp.js"></script>
 </head>
 <body>
 	<div class="body-container">
@@ -19,7 +23,7 @@
 		</div>
 		
 		<div class="toolbar-container" role="toolbar">
-			<button class="toolbar-btn"><h2>TRANSCRIPT</h2></button>
+			<button class="toolbar-btn" id="transcript-btn"><h2>TRANSCRIPT</h2></button>
 			<button class="toolbar-btn"><h2>AUDIO ON</h2></button>
 			<button class="toolbar-btn"><h2>MENU</h2></button>
 			<button class="toolbar-btn"><h2>BACK</h2></button>
@@ -43,9 +47,5 @@
 		Sometimes, it is difficult to obtain a complete past medical history; therefore, reviewing medications can
 		help piece together the history and identify potential contraindications to certain treatments. 
 	</div>
-  	<button id="transcript-opener">Open Transcript</button>
-	<script src="vendors/jquery.js"></script>
-	<script src="vendors/jquery-ui.min.js"></script>
-	<script src="clientApp.js"></script>
 </body>
 </html>
