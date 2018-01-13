@@ -10,6 +10,10 @@ $(function() {
    });
 
    $( "#transcript-btn" ).click(function() {
-      $( "#transcript-dialog" ).dialog( "open" );
+      if ($( "#transcript-dialog" ).dialog( "isOpen" )) {
+         $( "#transcript-dialog" ).dialog( "close" );
+      } else {
+         $( "#transcript-dialog" ).dialog( "open" );
+      }
    });
 });
