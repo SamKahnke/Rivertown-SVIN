@@ -28,7 +28,7 @@ $(function() {
    });
 
    // enables slide effect if dialog is touching the window's left side
-   function setEffect () {
+   function setEffect() {
       let pos = transcript.dialog( "option", "position" ).at;
 
       if (pos.includes("left ") || pos.includes("left+0")) {
@@ -37,4 +37,8 @@ $(function() {
          transcript.dialog( "option", { hide: false, show: false } );
       }
    }
+
+   $(".dropdown").click(function() {
+      $(this).toggleClass("show");
+   });
 });
