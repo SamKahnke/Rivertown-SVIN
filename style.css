@@ -3,11 +3,7 @@ body {
 	color: #000;
 }
 
-h2 {
-	font-size: 18px;
-	color: #21265d;
-	margin: 0;
-}
+
 
 .body-container {
 	height: 576px;
@@ -65,8 +61,19 @@ header {
 	font-family: inherit;
 }
 
+.toolbar-btn h2 {
+	font-size: 18px;
+	color: #21265d;
+	margin: 0;
+}
+
 .toolbar-btn:hover {
 	cursor: pointer;
+}
+
+.toolbar-btn:focus { outline: none; }
+
+.toolbar-btn:hover, .toolbar-btn:focus {
 	background-color: #d3dedc;
 }
 
@@ -78,7 +85,16 @@ header {
 /*----------------------- Video Slide -----------------------*/
 /*-----------------------------------------------------------*/
 
+.inactive-btn, .inactive-btn:hover, .inactive-btn:focus {
+	background-color: #cacaca;
+	border: 1px solid #bbb;
+}
 
+.inactive-btn h2 {
+	color: #999;
+}
+
+.inactive-btn:hover { cursor: default; }
 
 /*-----------------------------------------------------------*/
 /*----------------------- Text Slide ------------------------*/

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Video SVIN</title>
+	
+	<link rel="stylesheet" href="vendors/jquery-ui.min.css"/>
+	<link rel="stylesheet" href="style.css"/>
+	<script src="vendors/jquery.js"></script>
+	<script src="vendors/jquery-ui.min.js"></script>
+	<script src="clientApp.js"></script>
+</head>
+<body>
+	<div class="body-container">
+		<header>
+			<h1 class="logo"><img src="imgs/basic-stroke-logo.jpg"></h1>
+			<!-- "header-right-overlay" is copy of header graphic's right side - responds to window resizing -->
+			<img class="header-right-overlay" src="imgs/SVIN-header-right.svg" aria-hidden="true">
+		</header>
+
+		<div class="slide-container">
+			<div class="video-slide">
+			</div>
+		</div>
+		
+		<div class="toolbar-container" role="toolbar">
+			<button class="toolbar-btn" id="transcript-btn"><h2>TRANSCRIPT</h2></button>
+			<button class="toolbar-btn"><h2>AUDIO ON</h2></button>
+			<button class="toolbar-btn"><h2>MENU</h2></button>
+			<button class="toolbar-btn"><h2>BACK</h2></button>
+			<button class="toolbar-btn"><h2>NEXT</h2></button>
+			<button class="toolbar-btn"><h2>EXIT</h2></button>
+		</div>
+	</div>
+	<div id="transcript-dialog" title="Transcript">
+		<p>
+		The first medical staff to evaluate a patient suspected of having a stroke, needs to obtain key
+		information that will help determine what treatments are available for the patient. Basic level
+		triage includes obtaining the specific time the patient was last known well or the time of onset.
+		It is important to note, if the patient wakes up from a stroke with new symptoms or is found down,
+		the time of onset is not known. Therefore, you must use the last known well, even if this means the
+		time they went to bed the night before. If possible, try to obtain a phone number for any witness
+		or first-degree relatives from the EMS providers in case they are delayed in making it to the hospital.
+		Often, their input is critical in some of the decisions that are made about treatment.It is also important
+		to obtain a history of recent events; including whether the patient has suffered a stroke, heart attack,
+		trauma, episode of bleeding or has had recent surgeries.The emergency room provider also needs to try to
+		get a past medical history; information like a history of seizure, high blood pressure, diabetes or
+		even previous stroke is valuable information that will help determine how best to treat the patient.
+		Sometimes, it is difficult to obtain a complete past medical history; therefore, reviewing medications can
+		help piece together the history and identify potential contraindications to certain treatments.
+		</p>
+	</div>
+</body>
+</html>
