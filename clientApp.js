@@ -13,10 +13,12 @@ $(function() {
       resizestop: function( event, ui ) {}
    });
 
+   // triggers setEffect() whenever user drags or resizes dialog box
    transcript.on( "dialogdragstop dialogresizestop", function( event, ui ) {
       setEffect();
    });
 
+   // toggles transcript dialog box when transcript button clicked
    transcriptButton.click(function() {
       let isOpen = transcript.dialog( "isOpen" );
 
@@ -27,7 +29,7 @@ $(function() {
       }
    });
 
-   // enables slide effect if dialog is touching the window's left side
+   // ENABLES/DISABLES "slide" effect if dialog IS/ISN'T touching window's left side
    function setEffect () {
       let pos = transcript.dialog( "option", "position" ).at;
       
