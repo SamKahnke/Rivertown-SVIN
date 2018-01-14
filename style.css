@@ -16,8 +16,8 @@ ul ul {
 	background-image: url("imgs/SVIN-bg.png");
 	background-repeat: repeat;
 	box-shadow: 0 1px 12px #888;
-	/* display: flex;
-  	flex-flow: column wrap; */
+	display: flex;
+  	flex-flow: column wrap;
 }
 
 /*-----------------------------------------------------------*/
@@ -47,8 +47,8 @@ header {
 .slide-container {
 	display: flex;
 	flex: 1;
-	flex-direction: row;
-	height: 455px;
+	justify-content: space-around;
+	align-items: center;
 }
 
 /*-----------------------------------------------------------*/
@@ -147,8 +147,7 @@ header {
 /*-----------------------------------------------------------*/
 
 .text-container {
-	width: 450px;
-	margin: auto;
+	flex: 2 0 1;
 }
 
 .text-bullet {
@@ -157,5 +156,9 @@ header {
 }
 
 .img-container {
-	margin: auto;
+	flex: 1 0 1;
+}
+
+.img-container img {
+	width: 400px;
 }
