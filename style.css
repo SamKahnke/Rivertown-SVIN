@@ -3,6 +3,9 @@ body {
 	color: #000;
 }
 
+ul ul {
+  list-style-type: none;
+}
 
 
 .body-container {
@@ -13,8 +16,8 @@ body {
 	background-image: url("imgs/SVIN-bg.png");
 	background-repeat: repeat;
 	box-shadow: 0 1px 12px #888;
-	display: flex;
-  	flex-flow: column wrap;
+	/* display: flex;
+  	flex-flow: column wrap; */
 }
 
 /*-----------------------------------------------------------*/
@@ -42,8 +45,10 @@ header {
 /*-----------------------------------------------------------*/
 
 .slide-container {
-	background-color: #661111;
+	display: flex;
 	flex: 1;
+	flex-direction: row;
+	height: 455px;
 }
 
 /*-----------------------------------------------------------*/
@@ -140,3 +145,17 @@ header {
 /*-----------------------------------------------------------*/
 /*-------------------- Text/Image Slide ---------------------*/
 /*-----------------------------------------------------------*/
+
+.text-container {
+	width: 450px;
+	margin: auto;
+}
+
+.text-bullet {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+.img-container {
+	margin: auto;
+}
