@@ -12,3 +12,4 @@ $(function() {
                $( "#transcript-dialog" ).dialog( "open" );
             });
          });
+         
