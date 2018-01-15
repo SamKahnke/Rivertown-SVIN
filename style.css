@@ -3,6 +3,10 @@ body {
 	color: #000;
 }
 
+h1 {
+	color: #22265D;
+}
+
 ul ul {
   list-style-type: none;
 }
@@ -42,11 +46,12 @@ header {
 .header-right-overlay {	margin: 0 0 0 auto; }
 
 .header-title {
-	width: 590px;
+	width: 100%;
+	padding-left: 60px;
+	color: #2E3477;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	transform: translate(60px, 0px);
 }
 
 .header-title-text {
@@ -171,6 +176,11 @@ header {
 
 .inactive-btn:hover { cursor: default; }
 
+.video-container iframe {
+	width: 800px;
+	height: 450px;
+}
+
 /*-----------------------------------------------------------*/
 /*----------------------- Text Slide ------------------------*/
 /*-----------------------------------------------------------*/
@@ -193,6 +203,7 @@ header {
 .text-bullet {
 	font-size: 22px;
 	padding-bottom: 10px;
+	color: #21265D;
 }
 
 .img-container {
