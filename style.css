@@ -52,7 +52,6 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	transform: translate(0px, 0px);
 }
 
 .header-title-text {
