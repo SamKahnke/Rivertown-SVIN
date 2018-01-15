@@ -20,6 +20,7 @@ ul ul {
   	flex-flow: column wrap;
 }
 
+
 /*-----------------------------------------------------------*/
 /*------------------------- Header --------------------------*/
 /*-----------------------------------------------------------*/
@@ -39,6 +40,23 @@ header {
 
 /* causes right side of header graphic to move with window -- see img element in header */
 .header-right-overlay {	margin: 0 0 0 auto; }
+
+.header-title {
+	width: 590px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transform: translate(60px, 0px);
+}
+
+.header-title-text {
+	font-weight: 600;
+}
+
+.header-title-page-number {
+	font-weight: 600;
+	font-size: 14px;
+}
 
 /*-----------------------------------------------------------*/
 /*-------------------------- Slide --------------------------*/
@@ -140,7 +158,12 @@ header {
 /*----------------------- Text Slide ------------------------*/
 /*-----------------------------------------------------------*/
 
-
+.text-only-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 60px;
+}
 
 /*-----------------------------------------------------------*/
 /*-------------------- Text/Image Slide ---------------------*/
