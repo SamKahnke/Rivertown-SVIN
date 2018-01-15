@@ -1,7 +1,7 @@
 $(function() {
    const transcript = $( "#transcript-dialog" );
    const transcriptButton = $( "#transcript-btn" );
-
+   
    transcript.dialog({
       autoOpen: false,
       position: { at: "left bottom" },
@@ -31,7 +31,6 @@ $(function() {
 
    // ENABLES/DISABLES "slide" effect if dialog IS/ISN'T touching window's left side
    function setEffect () {
-
       let pos = transcript.dialog( "option", "position" ).at;
 
       if (pos.includes("left ") || pos.includes("left+0")) {
@@ -42,6 +41,6 @@ $(function() {
    }
 
    $(".dropdown").click(function() {
-      $(this).toggleClass("show");
+      $(".dropdown-content").toggleClass("show");
    });
 });
