@@ -3,6 +3,9 @@ body {
 	color: #000;
 }
 
+ul ul {
+  list-style-type: none;
+}
 
 
 .body-container {
@@ -42,8 +45,10 @@ header {
 /*-----------------------------------------------------------*/
 
 .slide-container {
-	background-color: #661111;
+	display: flex;
 	flex: 1;
+	justify-content: space-around;
+	align-items: center;
 }
 
 /*-----------------------------------------------------------*/
@@ -140,3 +145,20 @@ header {
 /*-----------------------------------------------------------*/
 /*-------------------- Text/Image Slide ---------------------*/
 /*-----------------------------------------------------------*/
+
+.text-container {
+	flex: 2 0 1;
+}
+
+.text-bullet {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+.img-container {
+	flex: 1 0 1;
+}
+
+.img-container img {
+	width: 400px;
+}
