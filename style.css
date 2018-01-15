@@ -3,6 +3,9 @@ body {
 	color: #000;
 }
 
+ul ul {
+  list-style-type: none;
+}
 
 
 .body-container {
@@ -16,6 +19,7 @@ body {
 	display: flex;
   	flex-flow: column wrap;
 }
+
 
 /*-----------------------------------------------------------*/
 /*------------------------- Header --------------------------*/
@@ -37,12 +41,32 @@ header {
 /* causes right side of header graphic to move with window -- see img element in header */
 .header-right-overlay {	margin: 0 0 0 auto; }
 
+.header-title {
+	width: 590px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transform: translate(60px, 0px);
+}
+
+.header-title-text {
+	font-weight: 600;
+}
+
+.header-title-page-number {
+	font-weight: 600;
+	font-size: 14px;
+}
+
 /*-----------------------------------------------------------*/
 /*-------------------------- Slide --------------------------*/
 /*-----------------------------------------------------------*/
 
 .slide-container {
+	display: flex;
 	flex: 1;
+	justify-content: space-around;
+	align-items: center;
 }
 
 /*-----------------------------------------------------------*/
@@ -135,8 +159,30 @@ header {
 /*----------------------- Text Slide ------------------------*/
 /*-----------------------------------------------------------*/
 
-
+.text-only-container {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding-left: 60px;
+}
 
 /*-----------------------------------------------------------*/
 /*-------------------- Text/Image Slide ---------------------*/
 /*-----------------------------------------------------------*/
+
+.text-container {
+	flex: 2 0 1;
+}
+
+.text-bullet {
+	font-size: 22px;
+	padding-bottom: 10px;
+}
+
+.img-container {
+	flex: 1 0 1;
+}
+
+.img-container img {
+	width: 400px;
+}
