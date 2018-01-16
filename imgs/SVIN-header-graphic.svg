@@ -30,6 +30,10 @@
 <defs>
     <style>
       .cls-1 {
+        fill: #eaefee;
+      }
+
+      .cls-2 {
         fill: #fefefe;
         fill-rule: evenodd;
         filter: url(#filter);
@@ -43,5 +47,6 @@
       <feBlend result="blend" in="SourceGraphic"/>
     </filter>
   </defs>
-  <path id="Path" class="cls-1" d="M0,74H233s8,0,20-11l18-41s4-9,18-10H877s13,0,17,11l14,39s2.333,9,25,9h91V-32H0V74Z"/>
+  <rect id="Rectangle" class="cls-1" y="-25" width="1024" height="84"/>
+  <path id="Path" class="cls-2" d="M0,74H233s8,0,20-11l18-41s4-9,18-10H877s13,0,17,11l14,39s2.333,9,25,9h91V-32H0V74ZM1024-32H0"/>
 </svg>
