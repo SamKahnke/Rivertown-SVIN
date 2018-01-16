@@ -12,12 +12,12 @@
 <body>
 	<div class="body-container">
 		<header>
-			<h1 class="logo"><img src="imgs/basic-stroke-logo.jpg"></h1>
-			<div class="header-title">
-				<p class="header-title-text">
+			<div class="logo"><img src="imgs/basic-stroke-logo.jpg"></div>
+			<div class="header-title" aria-role="heading">
+				<p class="header-title-text" aria-label="Slide Title">
 					Treatment Options & Methods for Improving Stroke Outcomes
 				</p>
-				<p class="header-title-page-number">
+				<p class="header-title-page-number" aria-label="Lesson Progress">
 					22 of 31
 				</p>
 			</div>
@@ -26,7 +26,7 @@
 
 		</header>
 
-		<div class="slide-container">
+		<div class="slide-container" id="slide" role="main">
 			<div class="text-only-container">
 					<h1>We Will Cover</h1>
 					<ul>
@@ -44,45 +44,35 @@
 		</div>
 
 		<div class="toolbar-container" role="toolbar">
-			<button class="toolbar-btn dropdown">
+			<button class="toolbar-btn dropdown" aria-label="Menu">
 				<div class=toolbar-btn-text-graphic><img src="imgs/menu.svg" class="toolbar-icon-left"><h2>MENU</h2></div>
-			  	<div class="dropdown-content">
-				    <a href="#">Basic Anatomy, Statistics, & Types of Strokes</a>
-				    <a href="#">Risk Factors, Signs and Symptoms, BE FAST</a>
-				    <a href="#">EMS & Detection Scales</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
-					<a href="#">Treatment Options & Methods for Improving Stroke Outcomes</a>
+			  	<div class="dropdown-content" role="menu">
+				    <a href="#" role="menuitem">Basic Anatomy, Statistics, & Types of Strokes</a>
+				    <a href="#" role="menuitem">Risk Factors, Signs and Symptoms, BE FAST</a>
+				    <a href="#" role="menuitem">EMS & Detection Scales</a>
+					<a href="#" role="menuitem">Treatment Options & Methods for Improving Stroke Outcomes</a>
 			  	</div>
 			</button>
-			<button class="toolbar-btn" id="transcript-btn">
+			<button class="toolbar-btn" id="transcript-btn" aria-label="Transcript">
 				<div class=toolbar-btn-text-graphic><img src="imgs/transcript.svg" class="toolbar-icon-left"><h2>TRANSCRIPT</h2></div>
 			</button>
-			<button class="toolbar-btn">
+			<button class="toolbar-btn" aria-label="Play or Pause Audio">
 				<div class=toolbar-btn-text-graphic><img src="imgs/play.svg" class="toolbar-icon-left"><h2>PLAY AUDIO</h2></div>
 			</button>
-			<button class="toolbar-btn">
+			<button class="toolbar-btn" aria-label="Back">
 				<div class=toolbar-btn-text-graphic><img src="imgs/back.svg" class="toolbar-icon-left"><h2>BACK</h2></div>
 			</button>
-			<button class="toolbar-btn">
+			<button class="toolbar-btn" aria-label="Next">
 				<div class=toolbar-btn-text-graphic><h2>NEXT</h2><img src="imgs/next.svg" class="toolbar-icon-right"></div>
 			</button>
-			<button class="toolbar-btn">
+			<button class="toolbar-btn" aria-label="Exit">
 				<div class=toolbar-btn-text-graphic><img src="imgs/exit.svg" class="toolbar-icon-left"><h2>EXIT</h2></div>
 			</button>
 		</div>
 	</div>
 
 	<!-- popup transcript dialog box -->
-	<div id="transcript-dialog" title="Transcript">
+	<div id="transcript-dialog" role="dialog" title="Transcript" aria-label="Audio Transcript">
 		<p>
 		The first medical staff to evaluate a patient suspected of having a stroke, needs to obtain key
 		information that will help determine what treatments are available for the patient. Basic level
