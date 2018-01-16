@@ -206,7 +206,7 @@ header {
 	color: #21265D;
 }
 
-.dash-bullet:before { /* inserts dash before li */
+.dash-bullets .text-bullet:before { /* inserts dash before li */
 	content: "—";
 	padding: 0 10px 0 0;
 }
