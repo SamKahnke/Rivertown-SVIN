@@ -33,7 +33,7 @@ header {
 	height: 80px;
 	display: flex;
 	justify-content: space-between;
-	background-image: url("imgs/SVIN-header.svg");
+	background-image: url("imgs/SVIN-header-graphic.svg");
 	background-repeat: no-repeat;
 }
 
@@ -210,6 +210,11 @@ header {
 	font-size: 22px;
 	padding-bottom: 10px;
 	color: #21265D;
+}
+
+.dash-bullets .text-bullet:before { /* inserts dash before li */
+	content: "—";
+	padding: 0 10px 0 0;
 }
 
 .img-container {
