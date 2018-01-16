@@ -141,10 +141,10 @@ header {
 
 .dropdown-content {
 	max-height: 454px;
-  	display: none;
-  	position: absolute;
-  	background-color: #fff;
-  	width: 380px;
+	display: none;
+	position: absolute;
+	background-color: #fff;
+	width: 380px;
 	text-align: left;
 	font-size: 16px;
 	box-shadow: 0 1px 10px #aaa;
@@ -154,16 +154,16 @@ header {
 
 .dropdown-content a {
 	height: 40px;
-  	color: #21265d;
-  	padding: 10px 16px 6px 16px;
-  	text-decoration: none;
-  	display: block;
+	color: #21265d;
+	padding: 10px 16px 6px 16px;
+	text-decoration: none;
+	display: block;
 }
 
 .dropdown-content a:hover { background-color: #d3dedc; }
 
 .dropdown-content.show {
-  	display: block;
+  display: block;
 	bottom: 100%;
 }
 
@@ -203,7 +203,8 @@ header {
 /*-----------------------------------------------------------*/
 
 .text-container {
-	flex: 2 0 1;padding: 10px 10px 10px 20px;
+	flex: 2 0 1;
+	padding: 10px 10px 10px 20px;
 }
 
 .text-bullet {
@@ -258,10 +259,9 @@ header {
 		height: 276px;
 	}
 
-
-		.img-container img {
-			width: 275px;
-		}
+	.img-container img {
+		width: 275px;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
@@ -276,7 +276,6 @@ header {
 }
 
 @media (min-width: 768px) {
-
 	.body-container {
 		height: 576px;
 	}
@@ -286,18 +285,23 @@ header {
 	.toolbar-icon-left {
 		display: none;
 	}
+
 	.toolbar-icon-right {
 		display: none;
 	}
+
 	h1 {
 		font-size: 22px;
 	}
+
 	.toolbar-btn h2 {
 		font-size: 14px;
 	}
+
 	.text-bullet {
 		font-size: 19px;
 	}
+	
 	.text-only-container {
 		padding-left: 40px;
 	}
