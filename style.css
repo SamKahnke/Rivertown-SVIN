@@ -51,16 +51,19 @@ header {
 	color: #2E3477;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
+	align-items: top;
 }
 
 .header-title-text {
 	font-weight: 600;
+	padding-top: 10px;
 }
 
 .header-title-page-number {
 	font-weight: 600;
 	font-size: 14px;
+	min-width: 55px;
+	padding-top: 13px;
 }
 
 /*-----------------------------------------------------------*/
@@ -87,6 +90,7 @@ header {
 	background-color: #fff;
 	flex: 1;
 	font-family: inherit;
+	margin: 0;
 }
 
 .toolbar-btn h2 {
