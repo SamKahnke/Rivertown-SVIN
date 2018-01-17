@@ -62,7 +62,7 @@ header {
 
 .header-title-page-number {
 	font-weight: 600;
-	font-size: 14px;
+	font-size: .8rem;
 	min-width: 55px;
 	padding-top: 13px;
 	padding-left: 20px;
@@ -96,7 +96,7 @@ header {
 }
 
 .toolbar-btn h2 {
-	font-size: 18px;
+	font-size: 1.125rem;
 	color: #21265d;
 	margin: 0;
 }
@@ -108,11 +108,11 @@ header {
 
 .toolbar-btn:focus { outline: none; }
 
-.toolbar-icon-left, .toolbar-icon-right { height: 20px; }
+.toolbar-icon-left, .toolbar-icon-right { height: 1.25rem; }
 
-.toolbar-icon-left { padding-right: 10px; }
+.toolbar-icon-left { padding-right: .625rem; }
 
-.toolbar-icon-right { padding-left: 10px; }
+.toolbar-icon-right { padding-left: .625rem; }
 
 .toolbar-btn-text-graphic {
 	display: flex;
@@ -137,7 +137,7 @@ header {
 	background-color: #fff;
 	width: 380px;
 	text-align: left;
-	font-size: 16px;
+	font-size: 1rem;
 	box-shadow: 0 1px 10px #aaa;
 	transform: translate(-1px, -1px); /* account for button's border */
 	overflow: auto;
@@ -199,7 +199,7 @@ header {
 }
 
 .text-bullet {
-	font-size: 22px;
+	font-size: 1.375rem;
 	padding-bottom: 10px;
 	color: #21265D;
 }
@@ -248,18 +248,16 @@ header {
 }
 
 @media (max-width: 1023px) {
-	h1 { font-size: 22px; }
+	h1 { font-size: 1.375rem; }
 
-	.text-bullet { font-size: 18px; }
+	.text-bullet { font-size: 1.125rem; }
 
 	.text-only-container { padding-left: 40px; }
 
-	.toolbar-btn h2 { font-size: 14px; }
+	.toolbar-btn h2 { font-size: .875rem; }
 }
 
 @media (max-width: 767px) {
-	/* h1 { font-size: 18px; } */
-
 	header {
 		background-image: none;
 		background-color: #fff;
@@ -271,11 +269,6 @@ header {
 
 	.toolbar-btn h2 { display: none; }
 
-	/* .text-bullet {
-		font-size: 14px;
-		padding-bottom: 5px;
-	} */
-
 	.text-only-container { padding-left: 25px; }
 
 	.header-right-overlay { display: none; }
@@ -283,13 +276,13 @@ header {
 	.header-title { padding-left: 30px; }
 
 	.header-title-text {
-		font-size: 12px;
+		font-size: .75rem;
 		padding-top: 0;
 		margin: auto 0;
 	}
 
 	.header-title-page-number {
-		font-size: 12px;
+		font-size: .75rem;
 		padding-top: 0px;
 		margin: auto 0;
 	}
@@ -308,26 +301,3 @@ header {
 
 	.img-container img { width: 300px; }
 }
-
-/* @media (max-width: 567px) {
-	h1 { font-size: 16px; }
-
-	.text-bullet { font-size: 12px; }
-
-	.text-only-container { padding-left: 10px; }
-
-	.header-title {
-		padding: 0;
-		background-color: #fff;
-		min-height: 50px;
-		align-items: center;
-	}
-
-	.header-title-text {
-		font-size: 10px;
-		padding-top: 0;
-		padding-left: 15px;
-	}
-
-	.header-title-page-number { font-size: 10px; }
-} */
