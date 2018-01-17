@@ -62,9 +62,8 @@ header {
 
 .header-title-page-number {
 	font-weight: 600;
-	font-size: .8rem;
-	min-width: 55px;
-	padding-top: 13px;
+	min-width: 4rem;
+	padding-top: 10px;
 	padding-left: 20px;
 }
 
@@ -256,14 +255,14 @@ header {
 
 	.text-only-container { padding-left: 40px; }
 
-	.toolbar-btn h2 { font-size: .875rem; }
+	.toolbar-btn h2 { font-size: 1rem; }
 }
 
 @media (max-width: 767px) {
 	header {
 		background-image: none;
 		background-color: #fff;
-		height: 50px;
+		height: 60px;
 		margin-bottom: 5px;
 	}
 
@@ -278,13 +277,13 @@ header {
 	.header-title { padding-left: 30px; }
 
 	.header-title-text {
-		font-size: .75rem;
+		font-size: 1rem;
 		padding-top: 0;
 		margin: auto 0;
 	}
 
 	.header-title-page-number {
-		font-size: .75rem;
+		font-size: 1rem;
 		padding-top: 0px;
 		margin: auto 0;
 	}
