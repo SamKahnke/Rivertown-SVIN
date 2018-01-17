@@ -128,7 +128,7 @@ header {
 /*-----------------------------------------------------------*/
 
 .dropdown {
-	position: relative; 
+	position: relative;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -140,7 +140,7 @@ header {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	width: 460px;
+	width: 480px;
 	text-align: left;
 	font-size: 1rem;
 	box-shadow: 0 1px 10px #aaa;
@@ -175,7 +175,7 @@ header {
 	border: 1px solid #bbb;
 }
 
-.inactive-btn .toolbar-icon-left { opacity: .35; }
+/* .inactive-btn .toolbar-icon-left { opacity: .35; } */
 
 .inactive-btn h2 { color: #999; }
 
