@@ -135,18 +135,20 @@ header {
 	display: none;
 	position: absolute;
 	background-color: #fff;
-	width: 380px;
+	width: 460px;
 	text-align: left;
 	font-size: 16px;
 	box-shadow: 0 1px 10px #aaa;
 	transform: translate(-1px, -1px); /* account for button's border */
 	overflow: auto;
+	border: 1px solid #d3dedc;
 }
 
 .dropdown-content a {
-	height: 40px;
+	height: 30px;
 	color: #21265d;
-	padding: 10px 16px 6px 16px;
+	border-top: 1px solid #d3dedc;
+	padding: 12px 16px 2px 14px;
 	text-decoration: none;
 	display: block;
 }
@@ -167,7 +169,7 @@ header {
 	border: 1px solid #bbb;
 }
 
-.inactive-btn .toolbar-icon-left { opacity: 0.45; }
+.inactive-btn .toolbar-icon-left { opacity: .35; }
 
 .inactive-btn h2 { color: #999; }
 
