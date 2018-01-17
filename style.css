@@ -166,6 +166,16 @@ header {
 
 .dropdown-content a:hover { background-color: #eaf2ff; }
 
+.dropdown-icon-container {
+	display: block;
+	float: right;
+}
+
+.dropdown-icon {
+	height: 15px;
+	padding: 10px;
+}
+
 /*-----------------------------------------------------------*/
 /*----------------------- Video Slide -----------------------*/
 /*-----------------------------------------------------------*/
