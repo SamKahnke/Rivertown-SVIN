@@ -262,9 +262,7 @@ header {
 
 	.text-only-container { padding-left: 40px; }
 
-	.toolbar-btn h2 {
-		font-size: 14px;
-	}
+	.toolbar-btn h2 { font-size: 14px; }
 }
 
 @media (max-width: 767px) {
@@ -310,6 +308,10 @@ header {
 
 	.toolbar-icon-left {
 		padding-right: 0;
+	}
+
+	.slide-container {
+		flex-direction: column;
 	}
 }
 
