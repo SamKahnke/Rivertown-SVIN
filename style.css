@@ -127,7 +127,13 @@ header {
 /*------------------------ Dropup Menu ----------------------*/
 /*-----------------------------------------------------------*/
 
-.dropdown { position: relative; }
+.dropdown {
+	position: relative; 
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	box-sizing: border-box;
+}
 
 .dropdown-content {
 	max-height: 454px;
@@ -143,7 +149,13 @@ header {
 	border: 1px solid #d3dedc;
 }
 
-.dropdown-content a {
+.dropdown-content.show {
+	display: block;
+	bottom: 100%;
+	left: 0%;
+}
+
+.dropdown-content.show a {
 	height: 30px;
 	color: #21265d;
 	border-top: 1px solid #d3dedc;
@@ -153,11 +165,6 @@ header {
 }
 
 .dropdown-content a:hover { background-color: #eaf2ff; }
-
-.dropdown-content.show {
-  display: block;
-	bottom: 100%;
-}
 
 /*-----------------------------------------------------------*/
 /*----------------------- Video Slide -----------------------*/
