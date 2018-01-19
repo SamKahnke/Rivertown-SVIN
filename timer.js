@@ -9,8 +9,8 @@ function checkTime () {
 			listElems[i].style.visibility = "visible";
 		}
 	}
-	
-	if(timeElapsed >= 2000) {
+
+	if (timeElapsed >= 2000) {
 		clearInterval(interval);
 	}
 }

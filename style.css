@@ -12,7 +12,6 @@ ul ul {
   list-style-type: none;
 }
 
-
 .body-container {
 	max-width: 1024px;
 	margin: 0 auto;
@@ -320,4 +319,39 @@ header {
 	}
 
 	.img-container img { width: 300px; }
+}
+
+/*-----------------------------------------------------------*/
+/*-------------------- Portrait Message ---------------------*/
+/*-----------------------------------------------------------*/
+
+.portrait-warning-msg {
+	display: none;
+	justify-content: center;
+	align-items: center;
+	width: 85%;
+	margin: 500px auto 0 auto;
+	height: 100px;
+	border: 1px solid #eaf2ff;
+	border-radius: 5px;
+	background-color: #fff;
+}
+
+
+
+@media only screen and (max-device-width: 767px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 2) {
+	.portrait-warning-msg {
+		display: flex;
+	}
+
+	.body-container {
+		display: none;
+	}
+
+	body { background-color: #ddd; }
+
+	.warning-text {
+		font-size: 32px;
+		color: #22265D;
+	}
 }
